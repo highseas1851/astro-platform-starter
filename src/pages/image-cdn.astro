@@ -4,6 +4,7 @@ import ContextAlert from '../components/ContextAlert.astro';
 import Layout from '../layouts/Layout.astro';
 import Markdown from '../components/Markdown.astro';
 import corgi from '../assets/corgi.jpg';
+import easweb from '../assets/easweb.png';
 import { getNetlifyContext } from '../utils';
 
 const sampleImage = '/images/corgi.jpg';
@@ -28,6 +29,9 @@ Astro's \`Image\` component will automatically use Netlify Image CDN to serve op
 ---
 import { Image } from 'astro:assets';
 import corgi from '../assets/corgi.jpg';
+import easweb from '../assets/easweb.png';
+
+
 ---
 // Later in your markup...
 <Image src={corgi} alt="Corgi" /* ... additional props */ />
