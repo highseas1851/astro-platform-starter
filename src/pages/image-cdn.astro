@@ -8,7 +8,7 @@ import { getNetlifyContext } from '../utils';
 
 const sampleImage = '/images/corgi.jpg';
 
-const easweb = 'images/easweb.png';
+const easWeb = '/images/easweb.png';
 
 const ctx = getNetlifyContext();
 const forceWebP = ctx === 'dev';
@@ -102,6 +102,9 @@ detection, so format is set to WebP.
             </div>
         </section>
     </div>
+
+   <img src={easWeb} alt="eas web yall" />
+
 </Layout>
 
 <script>
